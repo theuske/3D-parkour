@@ -9,11 +9,11 @@ public class LadderScript : MonoBehaviour
 	public Transform chController;
 	bool inside = false;
 	public float speedUpDown = 1.9f;
-	public SC_FPSController FPSInput;
+	public PlayerMovement FPSInput;
 
 	void Start()
 	{
-		FPSInput = GetComponent<SC_FPSController>();
+		FPSInput = GetComponent<PlayerMovement>();
 		inside = false;
 	}
 
